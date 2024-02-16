@@ -300,7 +300,7 @@ p::first-line {
     }
 
     .video iframe {
-        height: auto;
+        height: 40%;
     }
 
     .lista_caracteristicas,
