@@ -8,7 +8,7 @@ header {
 }
 
 .caja {
-    width: 940px;
+    width: auto;
     position: relative;
     margin: 0 auto;
 }
@@ -38,7 +38,7 @@ nav a:hover {
 }
 
 .productos {
-    width: 940px;
+    width: auto;
     margin: 0 auto;
     padding: 50px;
 }
@@ -103,7 +103,7 @@ footer {
 /* División para el archivo contacto.html */
 
 form {
-    margin: 40px 0;
+    margin: 40px 40px;
 }
 
 form label,
@@ -118,6 +118,19 @@ form legend {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+    border: 2px solid rgb(199, 30, 0);
+    background: #f8b63b;
+}
+
+.input_datos:focus {
+    background-color: #a057f3b4;
+    border: 3px solid purple !important;
+}
+
+.input_datos:valid {
+    background: lightgreen;
+    border-color: green;
+    color: white;
 }
 
 .checkbox {
@@ -295,4 +308,46 @@ p::first-line {
         width: 100%;
         margin-bottom: 30px;
     }
+
+    .productos li {
+        width: auto;
+        text-align: center;
+        margin-bottom: 40px;
+        border-color: blueviolet;
+    }
+
+    .productos li:active {
+        border-color: aqua;
+    }
+
+    form {
+        display: grid;
+        justify-content: center;
+    }
+
+    .input_datos {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    fieldset:not(.checkbox) {
+        text-align: center;
+        width: auto;
+    }
+
+    .checkbox {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .boton_envio {
+        width: auto;
+        text-align: center;
+    }
+
+    table {
+        margin-left: 25%;
+    }
+
 }
