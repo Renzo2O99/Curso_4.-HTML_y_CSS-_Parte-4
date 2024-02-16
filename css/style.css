@@ -286,6 +286,10 @@ p::first-line {
         width: auto;
     }
 
+    .video iframe {
+        height: auto;
+    }
+
     .lista_caracteristicas,
     .imagen_caracteristicas {
         width: 100%;
