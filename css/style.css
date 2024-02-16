@@ -130,7 +130,6 @@ form legend {
 .input_datos:valid {
     background: lightgreen;
     border-color: green;
-    color: white;
 }
 
 .checkbox {
